@@ -46,17 +46,23 @@ header a{
 	display: flex;
 	flex-direction: column;
 	padding: 64px;
+	justify-content: center;
+	align-items: center;
+}
+
+.quoteContainer *{
+	width: 600px;
 }
 
 .quote{
-	font-size: 36px;
+	font-size: 24px;
 	font-style: italic;
 }
 
 .quoteContainer .credit{
 	font-size: 12px;
 	font-weight: bold;
-	align-self: flex-end;
+	text-align: right;
 }
 
 .hero{
@@ -119,4 +125,29 @@ header a{
 	border: 3px solid #3882F6;
 	border-radius: 8px;
 	background-color: #E5E7EB;
+}
+
+.callContainer{
+	display: flex;
+	justify-content: center;
+	padding: 64px;
+}
+
+.callToAction{
+	display: flex;
+	padding: 64px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3882F6;
+	color: white;
+	border-radius: 8px;
+	gap: 32px;
+}
+
+.callToAction button{
+	color: white;
+	background-color: #3882F6;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding: 4px 16px;
 }
